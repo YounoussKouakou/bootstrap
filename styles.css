@@ -1,0 +1,58 @@
+.heros{
+  background-image: url("./image/obv.jpg");
+  background-size: cover; /* Couvre toute la section sans déformation */
+  background-position: center; /* Centre l'image */
+  background-attachment: fixed; /* L'image reste fixe lors du défilement */
+  height: 100vh; /* Hauteur égale à 100% de la hauteur de la fenêtre */
+  width: 100vw; /* Largeur égale à 100% de la fenêtre */
+  display: flex; /* Utilisé pour centrer le contenu */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  color: white; /* Texte en blanc pour le contraste */
+  text-align: center; /* Centrer le texte */
+}
+
+/* Style pour l'image et la section */
+.image-container img {
+   width: 100%; /* L'image prend toute la largeur de la colonne */
+   border-radius: 8px;
+}
+
+.fin{
+   margin-top: 50px;
+}
+
+.text-container {
+   padding: 20px;
+}
+
+.btn-center{
+  
+   margin-top: 50px;
+}
+
+.section {
+   margin-top: 50px;
+}
+
+.footer {
+   background-color: blue;
+   padding: 20px 0;
+   text-align: center;
+   color: black;
+   margin-top: 50px;
+}
+
+.footer a {
+   color: black;
+   margin: 0 10px;
+   text-decoration: none;
+}
+
+.footer a:hover {
+   color: #007bff;
+}
+
+.footer .social-icons i {
+   font-size: 1.5rem;
+}
